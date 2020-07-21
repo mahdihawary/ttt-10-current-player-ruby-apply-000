@@ -3,4 +3,7 @@ def turn_count(board)
     board.each do |char|
       if char.downcase == "o" || char.downcase == "x"
         count+=1
+      end
+    end
+    count
 end
